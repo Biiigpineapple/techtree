@@ -2,7 +2,10 @@ html {
   font-size: 10px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
   font-family: "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
   color: rgb(15, 88, 233);
-  background-color: #072037;
+  /*background-color: #072037;*/
+  background-image: url("../images/background-3.jpg");
+  background-repeat: repeat;
+  background-size: 1550px 2100px;
 }
 
 body {
@@ -36,8 +39,15 @@ img {
   width: 100%;
 }
 
+video {
+  
+  width: 100%;
+
+}
+
 #logo{
   width: 30%;
 }
+
 
 
