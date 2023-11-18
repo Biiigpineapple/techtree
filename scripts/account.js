@@ -57,7 +57,7 @@ function setUserName() {
   })
   // 若成功调用 response.text()，会使用返回的文本来调用 `then()` 处理器，
   // 然后我们将其拷贝到 `poemDisplay` 框中。
-  .then((text) => (ptest.textContent = "aaa"))
+  .then((text) => (ptest.textContent = text))
   // 捕获可能出现的任何错误，
   // 并在 `poemDisplay` 框中显示一条消息。
   .catch((error) => (ptest.textContent = `获取诗歌失败：${error}` + `+ ${verse}.txt`));
